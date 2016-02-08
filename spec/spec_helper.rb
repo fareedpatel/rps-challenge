@@ -3,6 +3,7 @@
 ENV['RACK_ENV'] = 'test'
 
 require File.join(File.dirname(__FILE__), '..', 'lib/rps.rb')
+require 'web_helpers'
 
 require 'capybara'
 require 'capybara/rspec'
